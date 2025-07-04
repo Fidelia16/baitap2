@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    gap: 10px;
+    padding: 30px;
+}
+.introduce{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.introduce a{
+    text-decoration: none;
+    color: white;
+}
+.xinchao img{
+    width: 100px;
+    height: 100px;
+}
+.xinchao{
+    display: flex ;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color:rgba(47, 49, 41, 0.363);
+}
+footer a:link{
+    color: rgb(255, 153, 0);
+}
