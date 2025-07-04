@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+header nav{
+    margin-left: auto;     
+    
+}
+header nav a{
+    margin-right: 10px;    
+    color: white;
+    text-decoration: none;
+}
+.xinchao{
+    display: flex;
+    padding: 30px;
+    background-color: #f0f0f0;
+    gap: 10px;
+    
+}
+.xinchao p{
+    padding-top:  45px ;
+}
+.xinchao img{
+    width: 100px;
+    height: 100px;
+}
+.list-du-an{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.list-du-an p:first-child {
+    margin-left: 20px;
+  }
+  
+  .list-du-an p:last-child {
+    margin-right: 20px;
+  }
+.list-du-an p {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: black;
+    color: white
+}
+.du-an h3{
+    padding: 30px 20px;
+    padding-bottom: 10px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    background-color:#f0f0f0 ;
+}
+main{
+    width: 500px;
+}
